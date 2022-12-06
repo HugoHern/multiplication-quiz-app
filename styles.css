@@ -5,10 +5,14 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: rgb(201, 233, 238);
-    background: linear-gradient(31deg, rgb(240, 253, 255) 0%, rgb(180, 234, 255) 100%);
+    background: rgb(230, 241, 243);
+    background: linear-gradient(31deg, rgb(240, 253, 255) 0%, rgb(210, 239, 250) 100%);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #2a2d34;
+}
+
+h2{
+    border-bottom: 2px solid #2a2d34;;
 }
 
 .form{
