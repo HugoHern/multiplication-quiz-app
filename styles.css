@@ -6,7 +6,7 @@ body{
     align-items: center;
     text-align: center;
     background: rgb(201, 233, 238);
-    background: linear-gradient(31deg, rgb(240, 253, 255) 0%, rgb(149, 220, 248) 100%);
+    background: linear-gradient(31deg, rgb(240, 253, 255) 0%, rgb(180, 234, 255) 100%);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #2a2d34;
 }
@@ -16,6 +16,9 @@ body{
     padding: 20px;
     box-shadow: 10px 10px 10px rgb(103, 143, 153);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .input{
@@ -39,7 +42,7 @@ body{
     color: white;
     border: none;;
     display: block;
-    width: 100%;
+    width: 200px;
     font-size:25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px 0;
@@ -55,5 +58,5 @@ body{
 
 .score{
     color: #497a59;;
-    text-align: right;
+    text-align: center;
 }
